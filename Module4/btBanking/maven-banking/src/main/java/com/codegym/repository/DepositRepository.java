@@ -1,6 +1,6 @@
-package com.cg.repository;
+package com.codegym.repository;
 
-import com.cg.model.Deposit;
+import com.codegym.model.Deposit;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

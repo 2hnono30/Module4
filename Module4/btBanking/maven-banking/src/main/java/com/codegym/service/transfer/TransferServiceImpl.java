@@ -1,10 +1,10 @@
-package com.cg.service.transfer;
+package com.codegym.service.transfer;
 
-import com.cg.model.dto.ITransferDTO;
-import com.cg.model.dto.SumFeesAmountDTO;
-import com.cg.model.dto.TransferDTO;
-import com.cg.model.Transfer;
-import com.cg.repository.TransferRepository;
+import com.codegym.model.dto.ITransferDTO;
+import com.codegym.model.dto.SumFeesAmountDTO;
+import com.codegym.model.dto.TransferDTO;
+import com.codegym.model.Transfer;
+import com.codegym.repository.TransferRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

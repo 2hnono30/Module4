@@ -1,9 +1,9 @@
-package com.cg.repository;
+package com.codegym.repository;
 
-import com.cg.model.dto.ITransferDTO;
-import com.cg.model.dto.SumFeesAmountDTO;
-import com.cg.model.dto.TransferDTO;
-import com.cg.model.Transfer;
+import com.codegym.model.dto.ITransferDTO;
+import com.codegym.model.dto.SumFeesAmountDTO;
+import com.codegym.model.dto.TransferDTO;
+import com.codegym.model.Transfer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

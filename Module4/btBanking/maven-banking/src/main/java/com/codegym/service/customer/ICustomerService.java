@@ -1,8 +1,8 @@
-package com.cg.service.customer;
+package com.codegym.service.customer;
 
-import com.cg.model.dto.*;
-import com.cg.model.Customer;
-import com.cg.service.IGeneralService;
+import com.codegym.model.dto.*;
+import com.codegym.model.Customer;
+import com.codegym.service.IGeneralService;
 
 import java.math.BigDecimal;
 import java.util.Optional;

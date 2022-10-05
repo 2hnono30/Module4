@@ -1,4 +1,4 @@
-package com.cg.service;
+package com.codegym.service;
 
 import java.util.Optional;
 

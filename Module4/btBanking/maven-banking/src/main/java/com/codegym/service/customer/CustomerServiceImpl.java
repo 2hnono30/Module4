@@ -1,11 +1,11 @@
-package com.cg.service.customer;
+package com.codegym.service.customer;
 
-import com.cg.model.dto.*;
-import com.cg.model.Customer;
-import com.cg.repository.CustomerRepository;
-import com.cg.repository.DepositRepository;
-import com.cg.repository.TransferRepository;
-import com.cg.repository.WithdrawRepository;
+import com.codegym.model.dto.*;
+import com.codegym.model.Customer;
+import com.codegym.repository.CustomerRepository;
+import com.codegym.repository.DepositRepository;
+import com.codegym.repository.TransferRepository;
+import com.codegym.repository.WithdrawRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

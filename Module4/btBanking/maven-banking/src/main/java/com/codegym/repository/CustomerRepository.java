@@ -1,9 +1,9 @@
-package com.cg.repository;
+package com.codegym.repository;
 
-import com.cg.model.dto.DepositDTO;
-import com.cg.model.dto.RecipientDTO;
-import com.cg.model.dto.WithdrawDTO;
-import com.cg.model.Customer;
+import com.codegym.model.dto.DepositDTO;
+import com.codegym.model.dto.RecipientDTO;
+import com.codegym.model.dto.WithdrawDTO;
+import com.codegym.model.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
@@ -22,19 +22,19 @@ public interface CustomerRepository extends JpaRepository<Customer, Long> {
     Iterable<Customer> findAllByDeletedIsFalse();
 
 
-    @Query("SELECT NEW com.cg.model.dto.DepositDTO (c.id, c.fullName, c.balance) FROM Customer c WHERE c.id = ?1 ")
+    @Query("SELECT NEW com.codegym.model.dto.DepositDTO (c.id, c.fullName, c.balance) FROM Customer c WHERE c.id = ?1 ")
     Optional<DepositDTO> findByIdWithDepositDTO(Long id);
 
 
-    @Query("SELECT NEW com.cg.model.dto.WithdrawDTO (c.id, c.fullName, c.balance) FROM Customer c WHERE c.id = ?1 ")
+    @Query("SELECT NEW com.codegym.model.dto.WithdrawDTO (c.id, c.fullName, c.balance) FROM Customer c WHERE c.id = ?1 ")
     Optional<WithdrawDTO> findByIdWithWithdrawDTO(Long id);
 
 
-    @Query("SELECT NEW com.cg.model.dto.RecipientDTO (c.id, c.fullName) FROM Customer c WHERE c.id <> ?1 ")
+    @Query("SELECT NEW com.codegym.model.dto.RecipientDTO (c.id, c.fullName) FROM Customer c WHERE c.id <> ?1 ")
     Iterable<RecipientDTO> findAllRecipientDTOByIdWithOutSender(Long id);
 
 
-    @Query("SELECT NEW com.cg.model.dto.RecipientDTO (c.id, c.fullName) FROM Customer c WHERE c.id <> ?1 AND c.deleted = false ")
+    @Query("SELECT NEW com.codegym.model.dto.RecipientDTO (c.id, c.fullName) FROM Customer c WHERE c.id <> ?1 AND c.deleted = false ")
     Iterable<RecipientDTO> findAllRecipientDTOByIdWithOutSenderAndDeletedIsFalse(Long id);
 
 

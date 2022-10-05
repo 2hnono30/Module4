@@ -1,6 +1,6 @@
-package com.cg.repository;
+package com.codegym.repository;
 
-import com.cg.model.Withdraw;
+import com.codegym.model.Withdraw;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

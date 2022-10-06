@@ -14,7 +14,7 @@ import java.util.Optional;
 @Repository
 public interface TransferRepository extends JpaRepository<Transfer, Long> {
 
-    @Query("SELECT NEW com.cg.model.dto.TransferDTO (c.id, c.fullName, c.email, c.balance) FROM Customer c WHERE c.id = ?1 ")
+    @Query("SELECT NEW com.codegym.model.dto.TransferDTO (c.id, c.fullName, c.email, c.balance) FROM Customer c WHERE c.id = ?1 ")
     Optional<TransferDTO> findByIdWithTransferDTO(Long id);
 
 
@@ -32,6 +32,6 @@ public interface TransferRepository extends JpaRepository<Transfer, Long> {
     List<ITransferDTO> findAllByITransferDTO();
 
 
-    @Query("SELECT NEW com.cg.model.dto.SumFeesAmountDTO (SUM(t.feesAmount)) FROM Transfer t ")
+    @Query("SELECT NEW com.codegym.model.dto.SumFeesAmountDTO (SUM(t.feesAmount)) FROM Transfer t ")
     Optional<SumFeesAmountDTO> sumFeesAmount();
 }

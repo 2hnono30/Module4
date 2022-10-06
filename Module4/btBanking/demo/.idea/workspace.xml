@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff47106a-2897-4463-bf7d-f403bdeef3e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../maven-banking/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven-banking/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven-banking/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven-banking/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven-banking/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven-banking/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven-banking/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven-banking/src/main/java/com/codegym/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../maven-banking/src/main/java/com/codegym/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven-banking/src/main/java/com/codegym/repository/TransferRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../maven-banking/src/main/java/com/codegym/repository/TransferRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lesson2/thuchanh5/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson2/thuchanh5/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson7/thuchanh1/spring-customer-management/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson7/thuchanh1/spring-customer-management/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson7/thuchanh1/spring-customer-management/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson7/thuchanh1/spring-customer-management/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maven-bank/maven-banking/maven-bank-customers-relations" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/Module4/Module4/lesson2",
+    "last_opened_file_path": "G:/Module4/Module4/btBanking/demo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -153,6 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664933563128</updated>
       <workItem from="1664933564601" duration="1144000" />
+      <workItem from="1665024504241" duration="17000" />
     </task>
     <servers />
   </component>

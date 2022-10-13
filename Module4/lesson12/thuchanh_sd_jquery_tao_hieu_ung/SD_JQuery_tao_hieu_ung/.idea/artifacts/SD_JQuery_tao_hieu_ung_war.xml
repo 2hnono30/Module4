@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SD_JQuery_tao_hieu_ung:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SD_JQuery_tao_hieu_ung</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SD_JQuery_tao_hieu_ung-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SD_JQuery_tao_hieu_ung:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="434c347c-4e23-43ec-991b-c84efb3a5e52" name="Changes" comment="" />
+    <list default="true" id="434c347c-4e23-43ec-991b-c84efb3a5e52" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/thuchanh1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/thuchanh1/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson10/thuchanh1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson10/thuchanh1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson12/thuchanh1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson12/thuchanh1/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lesson12/thuchanh1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lesson12/thuchanh1/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/Module4/Module4/lesson2"
+    "last_opened_file_path": "G:/Module4/Module4/lesson8/baitap1/thuchanh1"
   }
 }]]></component>
   <component name="RunManager">
@@ -64,6 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665452395168</updated>
       <workItem from="1665452396463" duration="78000" />
+      <workItem from="1665712813357" duration="26000" />
     </task>
     <servers />
   </component>
